@@ -1,18 +1,10 @@
-# 🌊 Flow Interaction Template Service
+# 🛡️ Shield - Emerald City's FLIX
 
-This Flow Interaction Template Service provides a way to propose, store and host `InteractionTemplate` data structures.
+Shield provides a way to propose, store and host `InteractionTemplate` data structures.
 
 ## 📖 Overview
 
 This repository is a place for developers to propose their Interaction Templates to be audited, and where Interaction Templates can be stored and hosted by the provided API.
-
-<a name="propose"></a>
-
-## 💡 Propose Interaction Template
-
-If you have created an Interaction Template, you can create a PR to palce your Interaction Template into the `./proposals` folder of this repository.
-
-Auditors in the Flow ecosystem can check this folder to see new Interaction Templates available for audit.
 
 ## 💾 Store Interaction Templates
 
@@ -67,7 +59,7 @@ GET /v1/templates?name=transfer-flow
 Flow's Interaction Template service is available at:
 
 ```
-https://flix.flow.com
+https://flix.ecdao.org
 
 eg: GET https://flix.flow.com/v1/templates?name=transfer-flow
 eg: GET https://flix.flow.com/v1/templates/${template_id}
@@ -77,13 +69,3 @@ eg: POST https://flix.flow.com/v1/templates/search
       network: "..." (mainnet | testnet)
     }
 ```
-
-## 🌎🌍🌏 Open to Anyone
-
-This project is open to be run by anyone. By forking this repository, and running the provided API service, anyone can run an instance of FLIX and make available Interaction Template for querying.
-
-If you don't wish to operate your own instance of FLIX, and wish to instead use the one provided by Flow, you can always do so! To add Interaction Templates to Flow's instance of FLIX, follow the [Propose Templates](#propose) workflow above.
-
-## 🛠 Notable backlog issues:
-
-- [ ] Sync Interaction Template between FLIX instances (https://github.com/onflow/flow-interaction-template-service/issues/9)
