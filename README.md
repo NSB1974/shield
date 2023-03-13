@@ -65,9 +65,9 @@ Flow's Interaction Template service is available at:
 ```
 https://flix.ecdao.org
 
-eg: GET https://flix.flow.com/v1/templates?name=transfer-flow
-eg: GET https://flix.flow.com/v1/templates/${template_id}
-eg: POST https://flix.flow.com/v1/templates/search
+eg: GET https://flix.ecdao.org/v1/templates?name=transfer-flow
+eg: GET https://flix.ecdao.org/v1/templates/${template_id}
+eg: POST https://flix.ecdao.org/v1/templates/search
     body (JSON): {
       cadence_base64: "...",
       network: "..." (mainnet | testnet)
