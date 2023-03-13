@@ -4,13 +4,17 @@ Shield provides a way to propose, store and host `InteractionTemplate` data stru
 
 ## 📖 Overview
 
-This repository is a place for developers to propose their Interaction Templates to be audited, and where Interaction Templates can be stored and hosted by the provided API.
+This repository stores both smart contract audits we have done for projects (`./project-audits`) and Interaction Templates (`./templates`), which are used for auditing transaction code.
+
+## ✔️ Smart Contract Audits
+
+View all of our smart contract audits, separated by project, in the (`./project-audits`) folder.
 
 ## 💾 Store Interaction Templates
 
 If you have created an Interaction Template, you can create a PR to place your Interaction Template in the `./templates` folder of this repository.
 
-## 📤 Host Interaction Templates
+## 📤 API for Interaction Templates
 
 The `./api` folder of this repository contains an API which can be run, and makes available the Interaction Templates stored in the `./templates` folder in a queryable way.
 
